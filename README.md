@@ -32,6 +32,11 @@
 $ npm install
 ```
 
+**IMPORTANT**
+The first time you run the server, you will need to add some types to the prisma.schema, run `prisma generate`, and then **with the proper .env file in the project** and the postgress database running, you could run the start commands.
+
+Remember to run a migration in order to populate the database with the proper tables you specified in the prisma.schema!
+
 ## Running the app
 
 ```bash
